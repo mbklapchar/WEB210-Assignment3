@@ -1,0 +1,31 @@
+/*Formatting*/
+body {
+    background-color: #dae0db;
+}
+
+img {
+    width: 640px;
+    height: 304.34px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Text Colors*/
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: orangered;
+    text-decoration: underline;
+}
+
+h3 {
+    color: purple;
+}
+
+a:hover {
+    color: white;
+}
