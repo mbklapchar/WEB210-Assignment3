@@ -1,6 +1,7 @@
 /*Formatting*/
 body {
     background-color: #dae0db;
+    text-align: center;
 }
 
 img {
@@ -12,9 +13,32 @@ a {
     text-decoration: none;
 }
 
+.about {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#footer {
+    border: 4px dashed orange;
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+h1, h2, h3, p {
+    font-family: Georgia, serif;
+}
+
 /*Text Colors*/
 h1 {
     color: darkgreen;
+    text-shadow: 2px 2px lightgreen;
 }
 
 h2 {
