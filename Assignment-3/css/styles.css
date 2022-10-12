@@ -31,8 +31,49 @@ ul {
 }
 
 
-h1, h2, h3, p {
+h1, h2, h3, p, ul, li {
     font-family: Georgia, serif;
+}
+
+.navigation {
+    width: 100%;
+}
+
+#nav, #nav ul {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    list-style: none;
+
+}
+
+#nav a {
+    display: block;
+    width: 130px;
+}
+
+#nav li {
+    float: left;
+    width: 130px;
+}
+
+#nav li ul {
+    position: absolute;
+    background-color: lightgreen;
+    width: 130px;
+    left: -999em;
+}
+
+#nav li:hover ul {
+    left: auto;
+}
+
+#nav li ul li:hover {
+    background-color: darkgreen;
+}
+
+#about {
+    clear: left;
 }
 
 /*Text Colors*/
@@ -53,3 +94,4 @@ h3 {
 a:hover {
     color: white;
 }
+
